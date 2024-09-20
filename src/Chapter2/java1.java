@@ -6,8 +6,8 @@ public class java1 {
 
     public static void main(String[] args) {
         String developerName = "Астапов";
-        long assignmentReceivedTime = System.currentTimeMillis();
-        long assignmentSubmittedTime = System.currentTimeMillis();
+        String StartTime="9/14/2024";
+        String EndTime="9/21/2024";
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество чисел: ");
@@ -35,5 +35,8 @@ public class java1 {
         }
         System.out.println("Самое короткое число: " + minLengthNumber + ", длина: " + minLength);
         System.out.println("Самое длинное число: " + maxLengthNumber + ", длина: " + maxLength);
+        System.out.println(developerName);
+        System.out.println(StartTime);
+        System.out.println(EndTime);
     }
 }
