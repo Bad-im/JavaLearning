@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class java1 {
 
     public static void main(String[] args) {
-        String developerName = "Иванов";
+        String developerName = "Астапов";
         long assignmentReceivedTime = System.currentTimeMillis();
         long assignmentSubmittedTime = System.currentTimeMillis();
 
