@@ -33,8 +33,8 @@ public class java1 {
                 maxLengthNumber = number;
             }
         }
-        System.out.println("Самое короткое число: " + minLengthNumber + ", длина: " + minLength);
-        System.out.println("Самое длинное число: " + maxLengthNumber + ", длина: " + maxLength);
+        System.out.println("Самое короткое число : " + minLengthNumber + ", длина: " + minLength);
+        System.out.println("Самое длинное число : " + maxLengthNumber + ", длина: " + maxLength);
         System.out.println(developerName);
         System.out.println(StartTime);
         System.out.println(EndTime);
