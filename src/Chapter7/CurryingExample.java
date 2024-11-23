@@ -1,0 +1,12 @@
+package Chapter7;
+
+import java.util.function.Function;
+
+public class CurryingExample {
+    public static void main(String[] args) {
+        Function<Integer, Function<Integer, Integer>> add = a -> b -> a + b;
+
+        int sum = add.apply(5).apply(3);
+        System.out.println("Сумма: " + sum); // Вывод: Сумма: 8
+    }
+}
