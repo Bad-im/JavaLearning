@@ -2,7 +2,7 @@ package Chapter7;
 
 import java.util.function.Function;
 
-public class CurryingExample {
+public class Summ2digit {
     public static void main(String[] args) {
         Function<Integer, Function<Integer, Integer>> add = a -> b -> a + b;
 
