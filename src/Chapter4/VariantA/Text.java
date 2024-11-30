@@ -1,7 +1,5 @@
 package Chapter4.VariantA;
 
-import Chapter4.VariantA.Sentence;
-
 import java.util.ArrayList;
 import java.util.List;
 
