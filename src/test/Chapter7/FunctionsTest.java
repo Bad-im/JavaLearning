@@ -1,5 +1,7 @@
-package Chapter7;
+package test.Chapter7;
 
+import Chapter7.Functions;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,7 +9,7 @@ public class FunctionsTest {
 
     @Test
     public void testAdd() {
-        assertEquals(8, Functions.add.apply(5).apply(3));
+        Assertions.assertEquals(8, Functions.add.apply(5).apply(3));
         assertEquals(0, Functions.add.apply(0).apply(0));
         assertEquals(-5, Functions.add.apply(-3).apply(-2));
     }

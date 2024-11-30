@@ -1,5 +1,8 @@
-package Chapter6;
+package test.Chapter6;
 
+import Chapter6.Book;
+import Chapter6.Magazine;
+import Chapter6.Textbook;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
